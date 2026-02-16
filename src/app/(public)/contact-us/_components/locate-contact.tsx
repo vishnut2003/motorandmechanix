@@ -52,7 +52,7 @@ const LocateContact = () => {
     },
     {
       icon: '/images/footer/whatsapp-icon-alt.png',
-      href: 'https://api.whatsapp.com/send?phone=8383838300&text=Hi+there+%F0%9F%91%8B%2C+Can+I+have+a+quote%2C+please',
+      href: 'https://api.whatsapp.com/send?phone=+918383838300&text=Hi+there+%F0%9F%91%8B%2C+Can+I+have+a+quote%2C+please',
       text: '083838 38300',
       type: 'whatsapp'
     }
