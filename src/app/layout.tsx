@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import Provider from "@/provider";
 import "@/globals.css";
@@ -129,6 +130,9 @@ export default function RootLayout({
         <Provider>
           {children}
         </Provider>
+        <GoogleAnalytics
+          gaId="G-E68LHPVK47"
+        />
       </body>
     </html>
   );
