@@ -18,15 +18,8 @@ const Workshop = dynamic(() => import("./_components/our-workshop"));
 import VideoSkeleton from "@/components/ui/video-skeleton";
 import HeroSection from "./_components/hero-section";
 import Reveal from "@/components/ui/reveal";
-import { Metadata } from "next";
 
 /* Removed Custom Image Wrapper */
-
-export const metadata: Metadata = {
-  alternates: {
-    canonical: "/",
-  }
-}
 
 const MotorMechanix = () => {
 
