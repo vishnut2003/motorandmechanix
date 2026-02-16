@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     title: 'Contact Motor & Mechanix - Expert Car Care',
     description: 'Visit our premium workshop in Noida or call us for top-notch car repair services.',
   },
+  alternates: {
+    canonical: "/contact-us",
+  }
 };
 
 export default function ContactUsPage() {

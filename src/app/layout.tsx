@@ -23,9 +23,6 @@ export const metadata: Metadata = {
     "Car Battery Replacement Noida",
     "Car Detailing Gaur City"
   ],
-  alternates: {
-    canonical: "/",
-  },
   authors: [{ name: "Motor & Mechanix" }],
   openGraph: {
     title: "Motor & Mechanix | Best Car Service Center in Noida & Gaur City",

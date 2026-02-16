@@ -15,6 +15,9 @@ import Bespoke from './_components/bespoke';
 export const metadata: Metadata = {
   title: 'Why Choose Motor & Mechanix | Trusted Car Workshop',
   description: 'Discover why we are Noida\'s most trusted car workshop. Genuine spares, transparency, skilled mechanics, and customer-first approach.',
+  alternates: {
+    canonical: "/why-us",
+  }
 };
 
 const WhyUs = () => {
