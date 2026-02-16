@@ -7,7 +7,7 @@ import "@/globals.css";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://motorandmechanix.co.in"),
+  metadataBase: new URL("https://motorandmechanix.com"),
   title: {
     default: "Motor & Mechanix | Best Car Service Center in Noida & Gaur City",
     template: "%s | Motor & Mechanix",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Motor & Mechanix | Best Car Service Center in Noida & Gaur City",
     description: "Expert Multi-Brand Car Care in Gaur City, Noida Extension. Professional car repair, maintenance, and diagnostics.",
-    url: "https://motorandmechanix.co.in",
+    url: "https://motorandmechanix.com",
     siteName: "Motor & Mechanix",
     locale: "en_IN",
     type: "website",
