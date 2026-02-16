@@ -10,6 +10,7 @@
     "generate-icons": "node scripts/generate-app-icons.js"
   },
   "dependencies": {
+    "@next/third-parties": "^16.1.6",
     "clsx": "^2.1.1",
     "framer-motion": "^12.31.0",
     "lucide-react": "^0.563.0",
