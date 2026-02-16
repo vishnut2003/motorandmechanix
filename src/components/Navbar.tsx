@@ -90,7 +90,7 @@ export default function Navbar() {
                 className="w-14 h-14"
               />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=+918383838300">
+            <a href="https://api.whatsapp.com/send?phone=+918383838300&text=Hi+there+👋%2C+Can+I+have+a+quote%2C+please">
               <Image
                 src="/assets/navbar/whatsapp-icon.webp"
                 alt="WhatsApp"
@@ -179,7 +179,7 @@ export default function Navbar() {
                   // className="invert"
                   />
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=+918383838300" className=" rounded-full flex items-center justify-center text-white">
+                <a href="https://api.whatsapp.com/send?phone=+918383838300&text=Hi+there+👋%2C+Can+I+have+a+quote%2C+please" className=" rounded-full flex items-center justify-center text-white">
                   <Image
                     src="/assets/navbar/whatsapp-icon.webp"
                     alt="WhatsApp"
