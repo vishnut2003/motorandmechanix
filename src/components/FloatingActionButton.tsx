@@ -38,7 +38,7 @@ const FloatingActionButton = () => {
                             <span className="relative inline-flex rounded-full h-4 w-4 bg-yellow-500"></span>
                         </span> */}
                         <div className='bg-[#00711F] rounded-full px-5 py-1'>
-                       <h5 className='text-white text-lg font-semibold'>Enquire Now</h5>
+                       <h5 className='text-white text-lg font-semibold'>Book Now</h5>
                        </div>
                     </motion.button>
                 )}

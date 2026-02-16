@@ -282,7 +282,7 @@ export default function ServiceGrid() {
                   )}
 
                   <a
-                    href="tel:+918976576589"
+                    href="tel:+918383838300"
                     className="bg-[#1A49BA] text-white px-12 py-3 rounded-full font-medium uppercase text-[15px] hover:bg-white hover:text-[#1A49BA] transition-all whitespace-nowrap shadow-lg flex items-center justify-center gap-2"
                   >
                     Call Now
