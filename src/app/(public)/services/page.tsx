@@ -10,9 +10,6 @@ import RightChoice from './_components/rightChoice';
 export const metadata: Metadata = {
   title: 'Our Services | Car Repair, Denting Painting, AC Service',
   description: 'Comprehensive car services including Periodical Service, Denting Painting, AC Repair, Electrical, and Accidental Claims.',
-  alternates: {
-    canonical: "/services",
-  }
 };
 
 export default function ServicesPage() {

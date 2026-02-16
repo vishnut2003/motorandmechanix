@@ -9,9 +9,6 @@ import WhyChooseSection from './_components/why-choose'
 export const metadata: Metadata = {
   title: 'Tyre Services & Wheel Alignment in Noida',
   description: 'Professional wheel alignment, balancing, and tyre replacement services using advanced 3D technology. Dealer of major tyre brands.',
-  alternates: {
-    canonical: "/tyres",
-  },
 };
 
 const Tyres = () => {

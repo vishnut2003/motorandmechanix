@@ -8,7 +8,7 @@ import "@/globals.css";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://motorandmechanix.com"),
+  metadataBase: new URL("https://motorandmechanix.co.in"),
   title: {
     default: "Motor & Mechanix | Best Car Service Center in Noida & Gaur City",
     template: "%s | Motor & Mechanix",
@@ -24,11 +24,14 @@ export const metadata: Metadata = {
     "Car Battery Replacement Noida",
     "Car Detailing Gaur City"
   ],
+  alternates: {
+    canonical: "/",
+  },
   authors: [{ name: "Motor & Mechanix" }],
   openGraph: {
     title: "Motor & Mechanix | Best Car Service Center in Noida & Gaur City",
     description: "Expert Multi-Brand Car Care in Gaur City, Noida Extension. Professional car repair, maintenance, and diagnostics.",
-    url: "https://motorandmechanix.com",
+    url: "https://motorandmechanix.co.in",
     siteName: "Motor & Mechanix",
     locale: "en_IN",
     type: "website",
@@ -69,9 +72,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: "Dx7nmwH_LUCVEoTuTIhex49gd_5DbuaQSXjEvZQ50RY",
-  }
 };
 
 export const viewport: Viewport = {

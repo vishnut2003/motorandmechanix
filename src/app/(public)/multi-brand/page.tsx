@@ -10,9 +10,6 @@ import LocateUs from '@/components/LocateUs';
 export const metadata: Metadata = {
   title: 'Luxury & Multi-Brand Car Service | BMW, Audi, Mercedes',
   description: 'Specialized diagnostic and repair services for luxury brands (BMW, Audi, Mercedes, Jaguar) and mass-market cars in Noida. Certified experts.',
-  alternates: {
-    canonical: "/multi-brand",
-  }
 };
 
 export default function MultiBrandPage() {
