@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Motor & Mechanix | Best Car Service Center in Noida & Gaur City",
     description: "Expert Multi-Brand Car Care in Gaur City, Noida Extension. Professional car repair, maintenance, and diagnostics.",
-    url: "https://motorandmechanix.co.in",
+    url: "https://motorandmechanix.com",
     siteName: "Motor & Mechanix",
     locale: "en_IN",
     type: "website",

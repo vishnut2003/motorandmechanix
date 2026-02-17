@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://motorandmechanix.co.in';
+  const baseUrl = 'https://motorandmechanix.com';
 
   // In a real app, you might fetch dynamic routes from a database or API
   // For now, we'll include the main paths

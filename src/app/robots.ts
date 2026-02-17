@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://motorandmechanix.co.in/sitemap.xml',
+    sitemap: 'https://motorandmechanix.com/sitemap.xml',
   };
 }
