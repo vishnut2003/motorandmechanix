@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Auto Care Blogs & Tips | Motor & Mechanix',
   description: 'Stay updated with the latest car care tips, maintenance guides, and automotive industry news from Motor & Mechanix experts.',
+  alternates: {
+    canonical: "/blogs",
+  }
 };
 
 export default function BlogsPage() {
