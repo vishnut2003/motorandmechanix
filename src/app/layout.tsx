@@ -8,7 +8,7 @@ import "@/globals.css";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://motorandmechanix.co.in"),
+  metadataBase: new URL("https://motorandmechanix.com"),
   title: {
     default: "Motor & Mechanix | Best Car Service Center in Noida & Gaur City",
     template: "%s | Motor & Mechanix",
