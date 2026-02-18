@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 import Provider from "@/provider";
 import "@/globals.css";
@@ -131,6 +131,9 @@ export default function RootLayout({
           gaId="G-E68LHPVK47"
         />
       </body>
+      <GoogleTagManager
+        gtmId="AW-11315015592"
+      />
     </html>
   );
 }
