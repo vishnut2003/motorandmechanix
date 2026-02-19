@@ -8,8 +8,13 @@ import { cn } from "@/lib/utils";
 import { X } from "lucide-react";
 
 import { navbarLinks } from "@/utils/pages-info.utils";
+import HeaderSubmenuItemsForDesktop, { HeaderSubmenuItemsForMobile } from "./submenu-item";
 
-const navLinks = navbarLinks.map(link => ({ name: link.label, href: link.path }));
+const navLinks = navbarLinks.map(link => ({
+  name: link.label,
+  href: link.path,
+  subPages: link.subpages,
+}));
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -63,20 +68,37 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex flex-1 justify-end mr-30 space-x-10 text-[14px] font-medium text-white">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className="relative pb-1
+            {navLinks.map((link) => {
+
+              if (link.subPages) {
+
+                return (
+                  <HeaderSubmenuItemsForDesktop
+                    key={link.name}
+                    name={link.name}
+                    href={link.href}
+                    subPages={link.subPages}
+                  />
+                )
+
+              } else {
+                return (
+                  <Link
+                    key={link.name}
+                    href={link.href}
+                    className="relative pb-1
                  after:absolute after:left-0 after:bottom-0
                  after:h-[1px] after:w-full after:bg-[#FFCE32]
                  after:scale-x-0 after:origin-left
                  after:transition-transform after:duration-300 after:ease-out
                  hover:after:scale-x-100"
-              >
-                {link.name}
-              </Link>
-            ))}
+                  >
+                    {link.name}
+                  </Link>
+                )
+              }
+
+            })}
           </nav>
 
           {/* Desktop Right Icons */}
@@ -129,7 +151,7 @@ export default function Navbar() {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "tween", duration: 0.3 }}
-            className="fixed inset-0 bg-[#FFCE32] z-[70] flex flex-col"
+            className="fixed inset-0 bg-[#FFCE32] z-[70] flex flex-col overflow-auto"
           >
             {/* Overlay Header */}
             <div className="px-4 py-4 flex items-center justify-between">
@@ -152,22 +174,38 @@ export default function Navbar() {
             </div>
 
             <nav className="flex-1 flex flex-col items-center justify-center space-y-8">
-              {navLinks.map((link, index) => (
-                <motion.div
-                  key={link.name}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.1 + index * 0.05 }}
-                >
-                  <Link
-                    href={link.href}
-                    className="text-3xl font-bold text-black uppercase hover:text-white transition-colors block text-center"
-                    onClick={() => setIsOpen(false)}
+              {navLinks.map((link, index) => {
+
+                if (link.subPages) {
+                  return (
+                    <HeaderSubmenuItemsForMobile
+                      href={link.href}
+                      name={link.name}
+                      subPages={link.subPages}
+                      setSidebarOpen={setIsOpen}
+                    />
+
+                  )
+                }
+
+                return (
+                  <motion.div
+                    key={link.name}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.1 + index * 0.05 }}
                   >
-                    {link.name}
-                  </Link>
-                </motion.div>
-              ))}
+                    <Link
+                      href={link.href}
+                      className="text-3xl font-bold text-black uppercase hover:text-white transition-colors block text-center"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {link.name}
+                    </Link>
+                  </motion.div>
+                )
+
+              })}
 
               <div className="flex gap-6 mt-8 justify-center">
                 <a href="tel:08383838300" className="w-20 h-20 rounded-full flex items-center justify-center text-white">
