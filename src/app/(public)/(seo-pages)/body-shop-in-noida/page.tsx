@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout"
 import featuredImage from "../car-repair-in-noida/assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Car Body Shop in Noida | Dent, Paint & Panel Repair — Motor Mechanix",
@@ -24,7 +25,7 @@ const BodyShopInNoidaPage = () => {
                     },
                     {
                         type: "p",
-                        content: (<>Motor Mechanix runs a proper body shop in Noida — with a temperature-controlled paint booth, professional panel equipment, and mechanics who take cosmetic repair as seriously as mechanical repair. We handle everything from a door ding to full post-accident restoration.</>)
+                        content: (<>Motor Mechanix runs a <Link href="https://motorandmechanix.com/">professional car body shop in Noida</Link>  — with a temperature-controlled paint booth, professional panel equipment, and mechanics who take cosmetic repair as seriously as mechanical repair. We handle everything from minor dent repair Noida to full accident repair Noida restoration.</>)
                     },
                     {
                         type: "h2",

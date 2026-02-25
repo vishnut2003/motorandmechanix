@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import CustomLayoutForSeoPages from "../custom-layout"
 import FeaturedImage from "./assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Car Repair Services in Noida | Motor Mechanix",
@@ -22,7 +23,7 @@ const CarRepairInNoida = async () => {
                             type: "p",
                             content: (
                                 <>
-                                    Most car owners in Noida have at least one bad workshop story. You go in for a minor issue, come out with a big bill — and the problem's still there three weeks later. We've heard it plenty of times. It's actually one of the main reasons Motor Mechanix was set up the way it was.
+                                    Most car owners looking for car repair in Noida or <Link href="https://motorandmechanix.com/">car repair shops near me in Noida</Link> have at least one bad workshop story. You go in for a minor issue, come out with a big bill — and the problem's still there three weeks later. We've heard it plenty of times. It's actually one of the main reasons Motor Mechanix was set up the way it was.
                                 </>
                             ),
                         },
@@ -30,7 +31,7 @@ const CarRepairInNoida = async () => {
                             type: "p",
                             content: (
                                 <>
-                                    We're a multi-brand car repair workshop in Noida, and we do things a bit differently. Before any work starts, we tell you exactly what's wrong and what it'll cost. You decide. No pressure, no inflated estimates, no mystery charges at the end.
+                                    We're a multi-brand car repair workshop offering reliable <Link href="https://motorandmechanix.com/services">car repair service near me</Link>  and <Link href="https://motorandmechanix.com/auto-repair-shop-in-noida">auto car repair</Link>  near me, and we do things a bit differently. Before any work starts, we tell you exactly what's wrong and what it'll cost. You decide. No pressure, no inflated estimates, no mystery charges at the end — just honest service when you're searching for the best car repair near me or trusted car repair places near me.
                                 </>
                             ),
                         },

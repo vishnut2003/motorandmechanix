@@ -1,7 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout";
 import FeaturedImage from "../car-repair-in-noida/assets/featured-image.jpg";
-
+import Link from "next/link";
 export const metadata: Metadata = {
     title: "Top Auto Repair Shop in Noida | All Brands — Motor Mechanix",
     description: "Motor Mechanix is Noida's trusted multi-brand auto repair shop. Engine, body, AC, brakes, tyres & insurance claims — all under one roof.",
@@ -20,11 +20,11 @@ const AutoRepairShopInNoida = () => {
                 contents: [
                     {
                         type: "p",
-                        content: (<>There's something to be said for not having to run around to five different places every time something goes wrong with your car. Brakes at one place, AC at another, tyres somewhere else. It's exhausting and expensive when you factor in the time and running around.</>),
+                        content: (<>There's something to be said for not having to run around to five different places every time something goes wrong with your car. Brakes at one place, AC at another, tyres somewhere else. It's exhausting and expensive when you factor in the time and running around. That’s why having a reliable <Link href="https://motorandmechanix.com/">auto repair shop in Noida</Link>  or even searching for an auto repair shop near me should lead you somewhere that handles it all.</>),
                     },
                     {
                         type: "p",
-                        content: (<>Motor Mechanix was built to be genuinely full-service. Engine work, bodywork, tyres, alignment, insurance claims — it all happens here, at our workshop in Noida. One conversation, one point of contact, one bill.</>),
+                        content: (<>Motor Mechanix was built to be genuinely <Link href="https://motorandmechanix.com/services">full-service</Link> — a trusted car workshop Noida drivers rely on. Engine work, bodywork, tyres, alignment, insurance claims — it all happens here, at our workshop in Noida. One conversation, one point of contact, one bill. Complete <Link href="https://motorandmechanix.com/multi-brand">multi brand car repair Noida</Link>  solutions under one roof.</>),
                     },
                     {
                         type: "h2",
@@ -60,7 +60,7 @@ const AutoRepairShopInNoida = () => {
                             (<>Brake system — pads, discs, calipers, ABS, handbrake</>),
                             (<>Air conditioning — gas charging, compressor, full system repair</>),
                             (<>Auto glass — windscreen chips, cracks, full replacement</>),
-                            (<>Body repair — dents, panel replacement, painting</>),
+                            (<><Link href="https://motorandmechanix.com/body-shop-in-noida">Body repair</Link> — dents, panel replacement, painting</>),
                             (<>Tyre sales and fitting — all major brands stocked</>),
                             (<>Wheel alignment and balancing</>),
                             (<>Cashless insurance claim processing — we handle it end to end</>),

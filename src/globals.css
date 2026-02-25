@@ -71,6 +71,10 @@ body {
   /* Dynamic viewport height for mobile */
 }
 
+.seo-page-content a {
+  color: #0000FF;
+} 
+
 .btn {
   font-size: 1rem;
   color: #fff;

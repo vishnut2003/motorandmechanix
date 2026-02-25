@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout"
 import featuredImage from "../car-repair-in-noida/assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Emergency Car Mechanic in Noida | Call Now — Motor Mechanix",
@@ -24,7 +25,7 @@ const EmergencyCarMechanicInNoidaPage = () => {
                     },
                     {
                         type: "p",
-                        content: (<>Motor Mechanix provides emergency car mechanic assistance in and around Noida. Depending on what's happened and where you are, we'll either get someone to you or guide you through getting the car to us. Either way, we don't leave you to figure it out all by yourself.</>),
+                        content: (<>Motor Mechanix provides <Link href="https://motorandmechanix.com/">emergency car mechanic in Noida</Link>  support and reliable car breakdown service Noida coverage. Depending on what's happened and where you are, we'll either get someone to you or guide you through getting the car to us. Either way, we don't leave you to figure it out all by yourself.</>),
                     },
                     {
                         type: "h2",
@@ -53,7 +54,7 @@ const EmergencyCarMechanicInNoidaPage = () => {
                         content: [
                             (<>Pick up and listen to what you're describing — no scripted response, actual troubleshooting</>),
                             (<>Advise you on whether it's safe to move the car or not</>),
-                            (<>Dispatch a mechanic to your location if roadside repair is feasible</>),
+                            (<>Dispatch a <Link href="https://motorandmechanix.com/contact-us">24/7 mechanic Noida</Link>  if roadside repair is possible</>),
                             (<>Arrange towing to our Noida workshop if the car can't be fixed where it is</>),
                             (<>Keep you updated throughout — you're not left wondering what's happening</>),
                         ]

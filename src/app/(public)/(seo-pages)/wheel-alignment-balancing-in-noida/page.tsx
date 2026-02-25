@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout"
 import featuredImage from "../tyre-shop-in-noida/assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Wheel Alignment & Balancing in Noida | Motor Mechanix",
@@ -20,7 +21,7 @@ const WheelAlignmentBalancingInNoida = () => {
                     contents: [
                         {
                             type: "p",
-                            content: (<>The roads in Noida are improving, however, the holes and speed bumps continue to have their way. A single bump is sufficient to cause the wheels to be knocked off course, and most individuals are unaware that it has taken place until they have already bitten through half of their tyres in an uneven manner. When discovered at an early stage, alignment and balancing are inexpensive to repair. Not so much when they have been neglected months.</>),
+                            content: (<>The roads in Noida are improving, however, the holes and speed bumps continue to have their way. A single bump is sufficient to cause the wheels to be knocked off course, and most individuals are unaware that it has taken place until they have already bitten through half of their tyres in an uneven manner.  When discovered at an early stage, wheel alignment in Noida and wheel balancing in Noida are inexpensive to repair. Not so much when they have been neglected for months.</>),
                         },
                         {
                             type: "h2",
@@ -32,7 +33,7 @@ const WheelAlignmentBalancingInNoida = () => {
                         },
                         {
                             type: "p",
-                            content: (<>Alignment refers to how your wheels are oriented both with regard to each other and to the ground. When they lose these angles a result of potholes, curbs, simple wear and tear, your car will start steering to one side, your steering wheel will be bent when you are travelling in a straight line, and your tyres will be worn unevenly along a single side. Our computerised alignment machine is a high-tech 3D machine capable of measuring your four wheels and then repositioning them to the desired specifications, as indicated by your car manufacturer.</>),
+                            content: (<>Alignment refers to how your wheels are oriented both with regard to each other and to the ground. When they lose these angles a result of potholes, curbs, simple wear and tear, your car will start steering to one side, your steering wheel will be bent when you are travelling in a straight line, and your tyres will be worn unevenly along a single side. Our computerised wheel alignment Noida machine is a high-tech 3D system capable of measuring your four wheels and then repositioning them to the desired specifications, as indicated by your car manufacturer, making it the right choice if you are searching for car alignment near me or accurate <Link href="https://motorandmechanix.com/tyre-shop-in-noida">tyre alignment Noida</Link> .</>),
                         },
                         {
                             type: "h3",
