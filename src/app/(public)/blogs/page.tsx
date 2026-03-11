@@ -1,5 +1,7 @@
 import React from 'react';
 import type { Metadata } from 'next';
+import { getWordpressBlogs } from '@/functions/wordpress/get-blogs';
+import SinglePostGridItem from './single-post-grid-item';
 
 export const metadata: Metadata = {
   title: 'Auto Care Blogs & Tips | Motor & Mechanix',
@@ -9,15 +11,33 @@ export const metadata: Metadata = {
   }
 };
 
-export default function BlogsPage() {
+export default async function BlogsPage() {
+
+  const blogs = await getWordpressBlogs({
+    page: 1,
+  });
+
   return (
-    <div className="min-h-screen bg-[#181818] text-white pt-24 pb-12">
+    <div className="min-h-screen bg-[#181818] text-white pt-27 pb-12">
       <div className="container px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-8 text-center uppercase">Our Blogs</h1>
-        <p className="text-center text-gray-400 max-w-2xl mx-auto">
-          Latest updates coming soon...
-        </p>
       </div>
+
+      <div
+        className='px-5 md:px-10'
+      >
+        <div
+          className='flex flex-col md:grid grid-cols-3 gap-6'
+        >
+          {blogs.map((blog, index) => (
+            <SinglePostGridItem
+              post={blog}
+              key={index}
+            />
+          ))}
+        </div>
+      </div>
+
     </div>
   );
 }

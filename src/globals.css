@@ -304,3 +304,17 @@ ul.service-repertoire-list li a {
     max-width: var(--container-2xl);
   }
 }
+
+.blog-content h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.blog-content img {
+  border-radius: 20px;
+  margin: 40px auto;
+}
+
+.blog-content a {
+  color: blue;
+}
