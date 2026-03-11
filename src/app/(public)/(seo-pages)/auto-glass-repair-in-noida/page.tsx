@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout"
 import featuredImage from "../car-repair-in-noida/assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Auto Glass Repair & Windscreen Replacement in Noida — Motor Mechanix",
@@ -20,11 +21,11 @@ const AutoGlassRepairInNoida = () => {
                 contents: [
                     {
                         type: "p",
-                        content: (<>A stone chip or small crack in your windscreen is easy to ignore. It's not affecting visibility much, it's not going to fall out. So you leave it. Then a summer afternoon in Noida heat, or one sharp pothole, and that 5cm crack becomes 40cm and runs straight into your line of sight. Now it's a windscreen replacement, not a chip repair.</>),
+                        content: (<>A stone chip or small crack in your windscreen is easy to ignore. It's not affecting visibility much, it's not going to fall out. So you leave it. Then a summer afternoon in Noida heat, or one sharp pothole, and that 5cm crack becomes 40cm and runs straight into your line of sight. Now it’s a windscreen replacement Noida, not a chip repair.</>),
                     },
                     {
                         type: "p",
-                        content: (<>Motor Mechanix handles the full range of auto glass issues — small chip repairs, crack repairs, full windscreen replacement, and door and rear glass replacement. We work with all car brands and can process most repairs as a cashless insurance claim.</>),
+                        content: (<>Motor Mechanix handles the full range of <Link href="https://motorandmechanix.com/">auto glass repair in Noida</Link>  — small chip repairs, windscreen crack repair Noida, full windscreen replacement, and door and rear glass replacement. If you're searching for car glass repair near me, We work with all car brands and can process most repairs as a cashless insurance claim.</>),
                     },
                     {
                         type: "h2",

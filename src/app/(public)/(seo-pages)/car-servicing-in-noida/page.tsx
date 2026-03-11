@@ -2,6 +2,7 @@ import React from 'react'
 import CustomLayoutForSeoPages from '../custom-layout'
 import featuredImage from "../car-repair-in-noida/assets/featured-image.jpg";
 import { Metadata } from 'next';
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Car Servicing in Noida | Periodic Maintenance — Motor Mechanix",
@@ -25,7 +26,7 @@ const CarServicingInNoidaPage = () => {
                     },
                     {
                         type: "p",
-                        content: (<>At Motor Mechanix, we offer straightforward car servicing packages for all makes and models in Noida. No unnecessary add-ons pushed on you. No items charged that weren't actually done. Just honest, thorough maintenance with a proper report of everything we checked.</>),
+                        content: (<>At Motor Mechanix, we offer straightforward car servicing in Noida and reliable <Link href="https://motorandmechanix.com/multi-brand">multi-brand car service </Link> Noida packages for all makes and models.  No unnecessary add-ons pushed on you. No items charged that weProfessional oil change Noidaren't actually done. Just honest, thorough maintenance at a trusted <Link href="https://motorandmechanix.com/">car service centre Noida</Link> , with a proper report of everything we checked.</>),
                     },
                     {
                         type: "h2",

@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout"
 import featuredImage from "../car-repair-in-noida/assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Brake Repair in Noida | All Cars — Motor Mechanix",
@@ -20,11 +21,11 @@ const BrakeRepairInNoidaPage = () => {
                 contents: [
                     {
                         type: "p",
-                        content: (<>Brakes are one of those things people keep meaning to get checked 'soon.' Then soon turns into three months, and that faint squeal turns into a grinding sound you can't ignore at the lights. We see this pattern a lot. The earlier you come in, the less it costs.</>)
+                        content: (<>Brakes are one of those things people keep meaning to get checked 'soon.' Then soon turns into three months, and that faint squeal turns into a grinding sound you can't ignore at the lights. We see this pattern a lot with car brakes Noida drivers bring in. The earlier you come in for brake repair in Noida, the less it costs.</>)
                     },
                     {
                         type: "p",
-                        content: (<>Motor Mechanix handles brake repairs for all car makes and models in Noida. Whether it's just brake pads or a full brake system overhaul, our technicians will look at it properly and tell you exactly what needs doing — and what doesn't.</>)
+                        content: (<><Link href="https://motorandmechanix.com/">Motor Mechanix</Link> handles brake repairs for all car makes and models in Noida. Whether it’s simple brake pad replacement Noida drivers need or a full system overhaul, our technicians will look at it properly and tell you exactly what needs doing — and what doesn't. If you are searching for reliable brake service near me, this is how it should be handled.</>)
                     },
                     {
                         type: "h2",

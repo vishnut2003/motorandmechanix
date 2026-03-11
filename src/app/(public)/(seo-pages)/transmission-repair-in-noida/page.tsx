@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout"
 import featuredImage from "../car-repair-in-noida/assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Transmission Repair in Noida | Manual & Automatic — Motor Mechanix",
@@ -20,11 +21,12 @@ const TransmissionRepairInNoida = () => {
                 contents: [
                     {
                         type: "p",
-                        content: (<>Gearbox problems have a way of announcing themselves — a grinding sound, a gear that won't engage, a car that shudders when changing speed. These are the kinds of symptoms that make most drivers nervous, because transmission repair has a reputation for being expensive.</>),
+                        content: (<>Gearbox problems have a way of announcing themselves — a grinding sound, a gear that won't engage, a car that shudders when changing speed. These are the kinds of symptoms that make most drivers nervous, because transmission repair in Noida has a reputation for being expensive.
+</>),
                     },
                     {
                         type: "p",
-                        content: (<>It can be. But not always. A lot of gearbox problems, caught early, are manageable repairs. A burnt clutch, a failed solenoid, low or dirty transmission fluid — these are fixable without rebuilding the whole box. At Motor Mechanix, we diagnose first, so you know exactly what you're dealing with before committing to any repair.</>),
+                        content: (<>It can be. But not always. A lot of gearbox repair in Noida, caught early, are manageable repairs. A burnt clutch, a failed solenoid, low or dirty transmission fluid — these are fixable without rebuilding the whole box. At <Link href="https://motorandmechanix.com/">Motor Mechanix</Link> , we diagnose first, so you know exactly what you're dealing with before committing to any gearbox repair Noida.</>),
                     },
                     {
                         type: "h2",

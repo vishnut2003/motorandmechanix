@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout"
 import featuredImage from "./assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Cashless Car Insurance Claim in Noida | Motor Mechanix",
@@ -24,7 +25,7 @@ const CashlessCarInsuranceLoanInNoida = () => {
                     },
                     {
                         type: "p",
-                        content: (<>Motor Mechanix is empanelled with most major insurance companies in India. That means when your car comes to us after an accident, we coordinate directly with your insurer — the claim, the surveyor visit, the repair approval, the billing — all of it. You pay only your policy's applicable deductible or depreciation (if any). Not the full repair bill.</>),
+                        content: (<><Link href="https://motorandmechanix.com/">Motor Mechanix</Link> is empanelled with most major insurers, making us a trusted car insurance claim garage Noida drivers rely on. When your car comes to us for accidental <Link href="https://motorandmechanix.com/car-repair-in-noida">car repair in Noida</Link>, we coordinate directly with your insurer — the claim, the surveyor visit, the repair approval, the billing — all of it. This allows a smooth cashless car insurance claim in Noida, where you pay only your policy’s deductible or depreciation (if any), not the full repair bill.</>),
                     },
                     {
                         type: "h2",
@@ -104,7 +105,7 @@ const CashlessCarInsuranceLoanInNoida = () => {
                             (<>Dent removal and reshaping — panels that can be saved, not just replaced</>),
                             (<>Accident paint — colour-matched, professional finish</>),
                             (<>Structural and frame damage — chassis alignment after major impact</>),
-                            (<>Windscreen and auto glass — cracks, chips, full replacement</>),
+                            (<>Windscreen and <Link href="https://motorandmechanix.com/auto-glass-repair-in-noida">auto glass repair</Link>  — cracks, chips, full replacement</>),
                             (<>Airbag replacement and control module reset</>),
                             (<>Mechanical damage — engine, suspension, gearbox affected in the accident</>),
                         ]

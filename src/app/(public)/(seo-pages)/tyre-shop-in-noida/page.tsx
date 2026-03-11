@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout"
 import featuredImage from "./assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Best Tyre Shop in Noida | Branded Tyres — Motor Mechanix",
@@ -20,11 +21,11 @@ const TyreShopInNoida = () => {
                 contents: [
                     {
                         type: "p",
-                        content: (<>Purchasing tyres may turn out to be a really stressful experience when you have no idea what you are looking at. The variety is rife, prices fluctuate widely and some of them will gladly sell you a product which may not even be suited to your car or the conditions in which you drive it. We try to make it simpler.</>),
+                        content: (<>Purchasing tyres may turn out to be a really stressful experience when you have no idea what you are looking at. The variety is rife, prices fluctuate widely and some of them will gladly sell you a product which may not even be suited to your car or the conditions in which you drive it. That’s why if you are searching for a tyre shop in Noida or even the best tyre shop near me, it should be simple and transparent. We try to make it exactly that.</>),
                     },
                     {
                         type: "p",
-                        content: (<>At Motor Mechanix, we stock a good range of branded tyres — the real thing, not fakes — across different price points. We'll tell you what fits your car, what suits how you drive, and what the price difference between options actually buys you. Then we fit and balance them properly, in the workshop, not on the footpath.</>),
+                        content: (<>At <Link href="https://motorandmechanix.com/">Motor Mechanix</Link> , we stock a good range of genuine branded car tyres in Noida across different price points. If you’re looking to buy tyres Noida, what suits how you drive, and what the price difference between options actually buys you. Then we fit and balance them properly, in the workshop, not on the footpath.</>),
                     },
                     {
                         type: "h2",
@@ -45,7 +46,7 @@ const TyreShopInNoida = () => {
                     },
                     {
                         type: "p",
-                        content: (<>Not able to find your size or want a brand that is not mentioned? It is normally available in less than 24 hours. Just call ahead.</>),
+                        content: (<>Not able to find your size or want a brand that is not mentioned? It is normally available in less than 24 hours.<Link href="https://motorandmechanix.com/contact-us">Just call ahead</Link> .</>),
                     },
                     {
                         type: "h2",

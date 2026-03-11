@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import CustomLayoutForSeoPages from "../custom-layout";
 import featuredImage from "../car-repair-in-noida/assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Car AC Repair in Noida | Fast Fix — Motor Mechanix",
@@ -20,11 +21,11 @@ const CarAcRepairInNoidaPage = () => {
                     contents: [
                         {
                             type: "p",
-                            content: (<>If you've ever sat in Noida traffic in May with a broken AC, you know exactly why this matters. A working air conditioner isn't a luxury in this climate — it's something you genuinely need. And yet a lot of people put off fixing it because they're worried about what it'll cost.</>),
+                            content: (<>If you've ever sat in Noida traffic in May with a broken AC, you know exactly why this matters. A working air conditioner isn't a luxury in this climate — it's something you genuinely need. And yet a lot of people put off car AC repair in Noida because they're worried about what it'll cost.</>),
                         },
                         {
                             type: "p",
-                            content: (<>Most car AC problems aren't as complicated or expensive as people fear. At Motor Mechanix, we diagnose AC faults properly before recommending anything. Sometimes it's just a gas top-up. Sometimes it's a dirty cabin filter nobody's changed in three years. Occasionally it's a compressor — but we'll tell you exactly what's wrong before you agree to any work.</>)
+                            content: (<>Most car AC problems aren't as complicated or expensive as people fear. At <Link href="https://motorandmechanix.com/">Motor Mechanix</Link> , we diagnose car air conditioning repair Noida issues properly before recommending anything. Sometimes it's just AC gas charging Noida. Sometimes it's a dirty cabin filter nobody's changed in three years. Occasionally it's an AC compressor repair Noida case — but we'll tell you exactly what's wrong before you agree to any work.</>)
                         },
                         {
                             type: "h2",

@@ -43,7 +43,7 @@ const CustomLayoutForSeoPages = ({
                 />
             </div>
             <div
-                className='py-10 px-5'
+                className='py-10 px-5 seo-page-content'
             >
                 <div
                     className='max-w-6xl mx-auto space-y-3'

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import CustomLayoutForSeoPages from "../custom-layout";
 import featuredImage from "../car-repair-in-noida/assets/featured-image.jpg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Best Car Mechanic Near Me in Noida | Certified — Motor Mechanix",
@@ -20,11 +21,11 @@ const CarMechanicsInNoida = () => {
                     contents: [
                         {
                             type: "p",
-                            content: (<>It is not as easy as it should be to find a good mechanic. You would want an employee who will not only look at your car, but also tell the truth regarding what is wrong with it, and will not bill you with parts that did not have to be changed. That is the benchmark and that is what we attempt to give to our customers on the day to day basis at Motor Mechanix.</>),
+                            content: (<>It is not as easy as it should be to find a good car mechanic near me. You would want an employee who will not only look at your car, but also tell the truth regarding what is wrong with it, and will not bill you with parts that did not have to be changed. That is the benchmark and that is what we attempt to give to our customers on the day to day basis at <Link href="https://motorandmechanix.com/">Motor Mechanix</Link> — trusted as a reliable car mechanic in Noida</>),
                         },
                         {
                             type: "p",
-                            content: (<>Our mechanics are also qualified, seasoned and, most importantly, responsible. You schedule your car with a technician who is allocated to the particular car. He or she inspects it, performs the work, and then signs it before he or she leaves. No handing over between shifts.</>),
+                            content: (<>Our mechanics are also qualified, seasoned and, most importantly, responsible — experienced <Link href="https://motorandmechanix.com/auto-repair-shop-in-noida">auto mechanic Noida</Link>  professionals you can depend on. You schedule your car with a technician who is allocated to the particular car. He or she inspects it, performs the work, and then signs it before he or she leaves. No handing over between shifts.Every job is handled by a certified mechanic Noida customers can trust.</>),
                         },
                         {
                             type: "h2",
@@ -53,7 +54,7 @@ const CarMechanicsInNoida = () => {
                         },
                         {
                             type: "p",
-                            content: (<>Our team has a minimum of more than ten years of practical experience in car repair. Some of our senior mechanics have also been hired through authorised dealerships - hence they have a manufacturer level training but without dealership waiting times and prices.</>),
+                            content: (<>Our team has a minimum of more than ten years of practical experience in <Link href="https://motorandmechanix.com/car-repair-in-noida">car repair</Link> . Some of our senior mechanics have also been hired through authorised dealerships - hence they have a manufacturer level training but without dealership waiting times and prices. That is why many customers consider us the best mechanic Noida drivers rely on.</>),
                         },
                         {
                             type: "p",
@@ -76,7 +77,7 @@ const CarMechanicsInNoida = () => {
                             content: [
                                 (<>Location: Noida, UP — see us on Google Maps via search Motor Mechanix.</>),
                                 (<>Open 7 days a week, Monday to Saturday, 9 AM to 7 PM.</>),
-                                (<>Assistance in the event of emergency - call us out of hours and we will endeavour.</>),
+                                (<>Assistance in the event of emergency - <Link href="https://motorandmechanix.com/contact-us">call us out of hours and we will endeavour</Link>.</>),
                             ]
                         },
                         {
