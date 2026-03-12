@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Metadata } from 'next';
 import { getWordpressBlogs } from '@/functions/wordpress/get-blogs';
 import SinglePostGridItem from './single-post-grid-item';
@@ -10,6 +9,8 @@ export const metadata: Metadata = {
     canonical: "/blogs",
   }
 };
+
+export const dynamic = 'force-dynamic';
 
 export default async function BlogsPage() {
 
